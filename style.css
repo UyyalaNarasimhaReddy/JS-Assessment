@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: burlywood;
+}
+
+#app {
+  width: 300px;
+  text-align: center;
+}
+
+#taskList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.controls {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+#noTasksMessage {
+  display: none;
+  color: red;
+}
+
+.addBtn {
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.showallBtn {
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  font-size: 20px;
+  width: 100px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.showComBtn {
+  border-radius: 5px;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+  width: 100px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.showInBtn {
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  width: 100px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.task {
+  height: 25px;
+}
